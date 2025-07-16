@@ -25,8 +25,8 @@ int main()
         << std::endl;
     }
 
-    /* Free the memory (it's good practice). */
+    /* Free the memory to avoid a memory leak. */
     delete[] arr;
-    
+
     return 0;
 }
